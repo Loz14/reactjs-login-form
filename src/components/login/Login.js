@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Row, FormGroup, FormControl, ControlLabel, Button, HelpBlock } from 'react-bootstrap';
-import './login.sass';
+import './login.css';
 import { isEmail, isEmpty, isLength, isContainWhiteSpace } from 'shared/validator';
 
 class Login extends Component {
